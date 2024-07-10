@@ -12,7 +12,8 @@
         <h1>Arnie Tecson</h1>
         <div id="current-time">
           <p id="time">00:00:00</p>
-          </div>
+          <script src="script.js"></script>
+        </div>
       </header>
       <body>
         <section id="about">
@@ -31,7 +32,10 @@
           <div id="bio">
             <img id ="at" src="resources/imgs/at.jpg" alt="arnie tecson" height="300px">
             <br>
-            <h2>tecsondev</h2>
+            <div id="contact">
+              <h2>tecsondev</h2>
+              <p id="email" onmouseover=emailReveal() onmouseout=emailClear()>email +</p>
+            </div>
           </div>
         </section>
         <section>
@@ -49,5 +53,4 @@
       <footer>
       </footer>
     </main>
-    <script src="script.js"></script>
   </html>

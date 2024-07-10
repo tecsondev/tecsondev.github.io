@@ -57,3 +57,14 @@ footer, #current-time {
 #at {
   border-radius: 70px;
 }
+
+#contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+#email {
+  margin-top: -20px;
+}
