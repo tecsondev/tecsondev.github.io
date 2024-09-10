@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="../alaala-tagalog-translator/style.css">
+</head>
+
+<body>
+  <h1>Alaala</h1>
+  <p id="description">English to Tagalog translation tool for memory retrieval practice. [nouns, adjectives & verbs]</p>
+  <div id="components">
+    <div id="word-container">
+      <div id="word">
+        <h2 id="word-text">~</h2>
+      </div>
+      <div class="btn">
+        <button id="word-btn">next</button>
+      </div>
+    </div>
+    <div id="translate-container">
+      <div id="translate">
+        <h2 id="translate-default">~</h2>
+        <h2 id="translate-text" style="display: none">~</h2>
+      </div>
+      <div class="btn">
+        <button id="translate-btn">translate</button>
+      </div>
+    </div>
+  </div>
+  <div id="notes">
+    <h3>Instructions:</h3>
+    <p>Click "next" to cycle through words, then attempt to recite the Tagalog translation out loud. Click "translate" to review if you were correct.<br/><br/>
+    <em>Your Papa, Mama, Tito, Tita, Lolo or Lola can help you with pronunciation!</em></p>
+    <p>“Retrieval practice—recalling facts or concepts or events from memory—is a more effective learning strategy than review by rereading."<br/>― Peter C. Brown, Make It Stick: The Science of Successful Learning</p>
+    <p>This tool was created for English speakers wanting to practice their Tagalog. It includes around 4000+ of the most common words in the English language.<br/>
+    We target nouns, adjectives & verbs since you can structure "Taglish" sentences and understand context more easily with these. Kaya mo yan!</p>
+  </div>
+</body>
+<footer>
+  <p>powered by Cloud Translation API (Google)</p>
+  <p id="alaala"><em>"Alaala" means memory, recollection, remembrance</em></p>
+  <p id="copr">copyright @ tecsondev</p>
+</footer>
+<script type="module" src="../alaala-tagalog-translator/generate-word.js"></script>
+<script type="module" src="../alaala-tagalog-translator/translate-word.js"></script>
+
+</html>

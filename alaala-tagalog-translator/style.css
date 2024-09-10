@@ -1,0 +1,39 @@
+body {
+  border: 4px, double, black;
+  width: 700px;
+  margin-top: 50px
+}
+
+html, body, #container, #word-container, #translate-container, #translate, #word, #notes, footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#word-container, #translate-container {
+  padding: 30px;
+}
+
+#components {
+  display: flex;
+  display: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#word, #translate {
+  border: 3px, double, black;
+  width: 200px;
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+#notes {
+  max-width: 500px;
+  text-align: center;
+}
+
+#copr, #alaala {
+  margin-top: -10px;
+}
