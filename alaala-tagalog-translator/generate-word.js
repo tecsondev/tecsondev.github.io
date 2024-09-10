@@ -51,8 +51,8 @@ function generateWord() {
       }
 
       const json = await response.json();
-      let translatedWord = json.data.translations["0"].translatedText.toString();
-      document.getElementById("translate-text").innerHTML = `${translatedWord}`;
+      let translatedWord = await json.data.translations["0"].translatedText.toString();
+      document.getElementById("translate-text").innerHTML =`${translatedWord}`;
     } catch (error) {
       console.error(error.message)
     }

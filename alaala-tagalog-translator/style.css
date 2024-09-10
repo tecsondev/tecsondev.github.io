@@ -24,16 +24,16 @@ html, body, #container, #word-container, #translate-container, #translate, #word
 
 #word, #translate {
   border: 3px, double, black;
-  width: 200px;
+  width: 250px;
   height: 50px;
   margin-bottom: 20px;
 }
 
-#notes {
+#notes, #description {
   max-width: 500px;
   text-align: center;
 }
 
-#copr, #alaala {
+#copr, #alaala, #description {
   margin-top: -10px;
 }
