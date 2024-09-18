@@ -1,56 +1,69 @@
 <!DOCTYPE html>
-  <html>
-    <head>
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-      <link rel="stylesheet" href="style.css">
-      <title>Arnie Tecson</title>
-    </head>
-    <main>
-      <header>
-        <h1>Arnie Tecson</h1>
-        <div id="current-time">
-          <p id="time">00:00:00</p>
-          <script src="script.js"></script>
+<html>
+
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+    rel="stylesheet">
+  <title>Arnie Tecson</title>
+</head>
+<main>
+  <header>
+    <h1>Arnie Tecson</h1>
+    <div id="current-time">
+      <p id="time">00:00:00</p>
+      <script src="script.js"></script>
+    </div>
+  </header>
+
+  <body>
+    <section id="about">
+      <div id="about-projects">
+        <h2>About</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+          est laborum.</p>
+        <div id="projects">
+          <h2>Projects</h2>
+          <ul>
+            <li><a href="./projects/alaala.html">Alaala Tagalog Translator</a></li>
+            <li><a href="./projects/pomodoro.html">Pomodoro Timer</a></li>
+            <li><a href="./projects/typecorrect.html">typeCorrect Typing Speed Test</a></li>
+          </ul>
         </div>
-      </header>
-      <body>
-        <section id="about">
-          <div id="about-projects">
-            <h2>About</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <div id="projects">
-              <h2>Projects</h2>
-              <ul>
-                <li><a  href="./projects/alaala.html">Alaala Tagalog Translator</a></li>
-                <li><a  href="./projects/pomodoro.html">Pomodoro Timer</a></li>
-                <li><a  href="./projects/typecorrect.html">typeCorrect Typing Speed Test</a></li>
-              </ul>
-            </div>
-          </div>
-          <div id="bio">
-            <img id ="at" src="resources/imgs/at.jpg" alt="arnie tecson" height="300px">
-            <br>
-            <div id="contact">
-              <h2>tecsondev</h2>
-              <p id="email" onmouseover=emailReveal() onmouseout=emailClear()>email +</p>
-            </div>
-          </div>
-        </section>
-        <section>
-          <h2>Skills</h2>
-          <div id="skills">
-              <img src="resources/imgs/csharp-original.svg" alt="csharp" height="50px">
-              <img src="resources/imgs/javascript-original.svg" alt="javascript" height="50px">
-              <img src="resources/imgs/html5-original.svg" alt="html" height="50px">
-              <img src="resources/imgs/css3-original.svg" alt="css" height="50px">
-              <img src="resources/imgs/powershell-original.svg" alt="powershell" height="50px">
-              <img src="resources/imgs/git-original.svg" alt="git" height="50px">
-          </div>
-        </section>
-      </body>
-      <footer>
-      </footer>
-    </main>
-  </html>
+      </div>
+      <div id="bio">
+        <img id="at" src="resources/imgs/at.jpg" alt="arnie tecson" height="300px">
+        <br>
+        <div id="contact">
+          <h2 style="font-family: Roboto Mono">tecsonDev</h2>
+          <p id="email" onmouseover=emailReveal() onmouseout=emailClear()>email +</p>
+        </div>
+      </div>
+    </section>
+    <section>
+      <h2>Skills</h2>
+      <div id="skills">
+        <img src="resources/imgs/csharp-original.svg" alt="csharp" title="csharp" height="50px">
+        <img src="resources/imgs/react-original.svg" alt="react" title="react" height="50px">
+        <img src="resources/imgs/javascript-original.svg" alt="javascript" title="javascript" height="50px">
+        <img src="resources/imgs/html5-original.svg" alt="html" title="html" height="50px">
+        <img src="resources/imgs/css3-original.svg" alt="css" title="css" height="50px">
+        <img src="resources/imgs/powershell-original.svg" alt="powershell" title="powershell" height="50px">
+        <img src="resources/imgs/git-original.svg" alt="git" title="git" height="50px">
+      </div>
+    </section>
+  </body>
+  <footer>
+  </footer>
+</main>
+
+</html>
