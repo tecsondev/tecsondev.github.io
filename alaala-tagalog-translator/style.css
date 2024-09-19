@@ -1,5 +1,7 @@
 body {
-  border: 4px, double, black;
+  border-width: 4px;
+  border-style: double;
+  border-color: black;
   width: 700px;
   margin-top: 50px
 }
@@ -9,6 +11,12 @@ html, body, #container, #word-container, #translate-container, #translate, #word
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  width: 95%
+}
+
+html {
+  margin: auto;
+  min-width: 300px;
 }
 
 #word-container, #translate-container {
@@ -20,11 +28,12 @@ html, body, #container, #word-container, #translate-container, #translate, #word
   display: row;
   justify-content: center;
   align-items: center;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 #word, #translate {
-  border: 3px, double, black;
-  width: 250px;
+  width: 150px;
   height: 50px;
   margin-bottom: 20px;
 }
