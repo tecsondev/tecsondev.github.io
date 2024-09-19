@@ -59,6 +59,10 @@ header {
   align-items: flex-start;
 }
 
+#at {
+  border-radius: .5rem;
+}
+
 #tecsondev {
   margin-top: .9rem;
 }
